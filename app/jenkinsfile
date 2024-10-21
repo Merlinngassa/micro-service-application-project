@@ -1,0 +1,22 @@
+pipeline {
+    agent {
+        
+    }
+    stages{
+        stage ('checkout stage'){
+            git branch: 'main', url: 'https://github.com/Merlinngassa/micro-service-application-project.git'
+
+        }
+        stage ('testing stage'){
+
+        }
+        stage ('building stage'){
+
+        }
+        stage ('building and pushing docker image'){
+
+        }
+
+        
+    }
+}
